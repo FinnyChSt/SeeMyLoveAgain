@@ -10,7 +10,6 @@ export const PageWrapper = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  overflow: scroll;
   @media only screen and (min-width: 800px) {
     top: 10%;
     left: 25%;
