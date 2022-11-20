@@ -9,9 +9,13 @@ export const PageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 10%;
-  left: 25%;
-  position: fixed;
+  text-align: center;
+  overflow: scroll;
+  @media only screen and (min-width: 800px) {
+    top: 10%;
+    left: 25%;
+    position: fixed;
+  } ;
 `;
 export const Title = styled.h1`
   color: red;
@@ -31,6 +35,6 @@ export const Avatar = styled.img`
 
 export const Background = styled.div`
   background: url(${heartBackground});
-  height: 100vw;
+  height: 200vh;
   width: 100vw;
 `;
