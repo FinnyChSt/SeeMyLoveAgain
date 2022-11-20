@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SeeMyLoveAgain/static/css/main.073c9b0a.css",
+    "main.js": "/SeeMyLoveAgain/static/js/main.bd36e365.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SeeMyLoveAgain/static/js/787.28cb0dcd.chunk.js",
+    "static/media/IMG_20221109_211721_174.jpg": "/SeeMyLoveAgain/static/media/IMG_20221109_211721_174.a49f11ba98fe6886ca05.jpg",
+    "index.html": "/SeeMyLoveAgain/index.html",
+    "main.073c9b0a.css.map": "/SeeMyLoveAgain/static/css/main.073c9b0a.css.map",
+    "main.bd36e365.js.map": "/SeeMyLoveAgain/static/js/main.bd36e365.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SeeMyLoveAgain/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bd36e365.js"
+  ]
+}
