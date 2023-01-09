@@ -13,7 +13,7 @@ import {
 } from "./App.styledComponents";
 
 function App() {
-  const arrival = new Date(2022, 11, 26, 20, 40).getTime();
+  const arrival = new Date(2023, 1, 11, 22, 30).getTime();
 
   const [timeLeft, setTimeLeft] = useState(0);
   setTimeout(() => {
