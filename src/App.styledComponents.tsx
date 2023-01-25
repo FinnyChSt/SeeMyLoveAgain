@@ -10,11 +10,6 @@ export const PageWrapper = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  @media only screen and (min-width: 800px) {
-    top: 10%;
-    left: 25%;
-    position: fixed;
-  } ;
 `;
 export const Title = styled.h1`
   color: red;
@@ -36,4 +31,13 @@ export const Background = styled.div`
   background: url(${heartBackground});
   height: 200vh;
   width: 100vw;
+`;
+
+export const HeartSvg = styled.img`
+  width: 32px;
+  height: 32px;
+`;
+
+export const HeartListContainer = styled.div`
+  padding-bottom: 12px;
 `;
