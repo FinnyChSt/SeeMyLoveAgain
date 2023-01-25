@@ -53,10 +53,9 @@ function App() {
     for (let heart = 0; heart < daysPass; heart++) {
       HeartList.push(<HeartSvg src={HeartLogoFilled} key={heart} />);
     }
-    for (let heart = 0; heart < staticDaysLeft; heart++) {
+    for (let heart = 0; heart < staticDaysLeft - 1; heart++) {
       HeartList.push(<HeartSvg src={HeartLogoOutline} key={heart} />);
     }
-    console.log(HeartList);
     return <>{HeartList}</>;
   };
   return (
@@ -72,11 +71,6 @@ function App() {
         <HeartListContainer>
           <Hearts />
         </HeartListContainer>
-        <div
-          style={{
-            height: "12px",
-          }}
-        />
       </PageWrapper>
     </Background>
   );
