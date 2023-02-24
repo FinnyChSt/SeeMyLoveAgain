@@ -17,8 +17,8 @@ import {
 } from "./App.styledComponents";
 
 function App() {
-  const arrival = new Date(2023, 1, 10, 22, 30).getTime();
-  const startDate = new Date(2023, 0, 9).getTime();
+  const arrival = new Date(2023, 2, 10, 20, 10).getTime();
+  const startDate = new Date(2023, 1, 24, 20, 10).getTime();
 
   const [timeLeft, setTimeLeft] = useState(arrival - Date.now());
 
