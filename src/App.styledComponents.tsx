@@ -41,3 +41,23 @@ export const HeartSvg = styled.img`
 export const HeartListContainer = styled.div`
   padding-bottom: 12px;
 `;
+export const AvatarWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+export const ButtonWrapperLeft = styled.div`
+  button {
+    transform: rotate(90deg);
+  }
+`;
+export const ButtonWrapperRight = styled.div`
+  button {
+    transform: rotate(-90deg);
+  }
+`;
+export const ButtonIcon = styled.button`
+  background: none;
+  border: none;
+  margin: 0 12px;
+`;
