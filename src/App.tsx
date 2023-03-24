@@ -22,8 +22,8 @@ import {
 } from "./App.styledComponents";
 
 function App() {
-  const arrival = new Date(2023, 2, 10, 21, 10).getTime();
-  const startDate = new Date(2023, 1, 24, 21, 10).getTime();
+  const arrival = new Date(2023, 3, 18, 10, 35).getTime();
+  const startDate = new Date(2023, 2, 23, 8, 20).getTime();
 
   const [timeLeft, setTimeLeft] = useState(arrival - Date.now());
   const [shownAvatar, setShownAvatar] = useState(avi);
