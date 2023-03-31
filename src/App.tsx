@@ -27,7 +27,6 @@ function App() {
   const startDate = new Date(2023, 2, 23, 8, 20).getTime();
   const dayWeMet = new Date(2022, 9, 27).getTime();
   const currentDate = Date.now();
-
   const [timeLeft, setTimeLeft] = useState(arrival - currentDate);
   const [shownAvatar, setShownAvatar] = useState(avi);
   const daysBetween = (arrival - startDate) / (1000 * 60 * 60 * 24);
