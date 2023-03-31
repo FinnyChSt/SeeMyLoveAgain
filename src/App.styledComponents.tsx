@@ -61,3 +61,9 @@ export const ButtonIcon = styled.button`
   border: none;
   margin: 0 12px;
 `;
+export const WeekCounter = styled.h2`
+  align-items: center;
+  text-align: center;
+  color: darkred;
+`;
+
