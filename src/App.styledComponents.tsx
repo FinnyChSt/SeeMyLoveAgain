@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import heartBackground from "./assets/heartbg.jpeg";
 
 export const LiveCountDown = styled.h2`
@@ -66,4 +66,33 @@ export const WeekCounter = styled.h2`
   text-align: center;
   color: darkred;
 `;
+export const IconAnimationRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 2rem;
+`;
 
+export const IconsContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 2rem;
+`;
+const flyAnimation = keyframes`
+  0% {
+    transform: translateX(-6rem);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(6rem);
+  }
+`;
+export const BufferBox = styled.div`
+  width: 6rem;
+`;
+export const AirplaneIcon = styled.div`
+  animation: ${flyAnimation} 2s linear infinite;
+`;
