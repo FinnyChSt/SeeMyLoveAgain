@@ -5,9 +5,11 @@ import HeartLogoOutline from "./assets/heart-outlined-svg.svg";
 import avi from "./IMG_20221109_211721_174.jpg";
 import avi2 from "../src/assets/IMG_20230112_230338_050.jpg";
 import {
+  AirplaneIcon,
   Avatar,
   AvatarWrapper,
   Background,
+  BufferBox,
   ButtonIcon,
   ButtonWrapperLeft,
   ButtonWrapperRight,
@@ -15,6 +17,7 @@ import {
   CountdownHours,
   HeartListContainer,
   HeartSvg,
+  IconAnimationRow,
   LiveCountDown,
   PageWrapper,
   Subtitle,
@@ -24,7 +27,7 @@ import {
 
 function App() {
   const arrival = new Date(2023, 6, 8, 0, 20).getTime();
-  const startDate = new Date(2023, 5, 24, 17, 10).getTime();
+  const startDate = new Date(2023, 4, 24, 17, 10).getTime();
   const dayWeMet = new Date(2022, 9, 27).getTime();
   const currentDate = Date.now();
   const [timeLeft, setTimeLeft] = useState(arrival - currentDate);
@@ -109,6 +112,13 @@ function App() {
         <Title>{"Time until I can hold my Ana in my arms again"}</Title>
         <CountdownDays>{`Days until I see my Love again:${daysLeft}`}</CountdownDays>
         <CountdownHours>{`Hours until I can finally see my Love again ${hoursLeft}`}</CountdownHours>
+        <IconAnimationRow>
+          <div>🇩🇪</div>
+          <BufferBox />
+          <AirplaneIcon>🛩️</AirplaneIcon>
+          <BufferBox />
+          <div>🇪🇪</div>
+        </IconAnimationRow>
         <WeekCounter>
           {`🌹 Weeks since we first met: ${weeksWeKnowEachOther} 🌹`}
         </WeekCounter>
