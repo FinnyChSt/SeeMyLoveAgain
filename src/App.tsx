@@ -26,8 +26,8 @@ import {
 } from "./App.styledComponents";
 
 function App() {
-  const arrival = new Date(2023, 6, 6, 0, 25).getTime();
-  const startDate = new Date(2023, 4, 24, 17, 10).getTime();
+  const arrival = new Date(2023, 7, 25, 18, 40).getTime();
+  const startDate = new Date(2023, 7, 8, 8, 20).getTime();
   const dayWeMet = new Date(2022, 9, 27).getTime();
   const currentDate = Date.now();
   const [timeLeft, setTimeLeft] = useState(arrival - currentDate);
