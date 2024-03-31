@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SeeMyLoveAgain/static/css/main.073c9b0a.css",
-    "main.js": "/SeeMyLoveAgain/static/js/main.c0a168af.js",
+    "main.js": "/SeeMyLoveAgain/static/js/main.da18cd65.js",
     "static/js/787.28cb0dcd.chunk.js": "/SeeMyLoveAgain/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_20230112_230338_050.jpg": "/SeeMyLoveAgain/static/media/IMG_20230112_230338_050.63c070e8c5282b1eac10.jpg",
     "static/media/IMG_20221109_211721_174.jpg": "/SeeMyLoveAgain/static/media/IMG_20221109_211721_174.a49f11ba98fe6886ca05.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/SeeMyLoveAgain/index.html",
     "static/media/heart-outlined-svg.svg": "/SeeMyLoveAgain/static/media/heart-outlined-svg.806e71e288b07aed8c71e7cc1a84a77b.svg",
     "main.073c9b0a.css.map": "/SeeMyLoveAgain/static/css/main.073c9b0a.css.map",
-    "main.c0a168af.js.map": "/SeeMyLoveAgain/static/js/main.c0a168af.js.map",
+    "main.da18cd65.js.map": "/SeeMyLoveAgain/static/js/main.da18cd65.js.map",
     "787.28cb0dcd.chunk.js.map": "/SeeMyLoveAgain/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c0a168af.js"
+    "static/js/main.da18cd65.js"
   ]
 }
